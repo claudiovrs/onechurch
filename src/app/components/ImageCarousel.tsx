@@ -52,18 +52,11 @@ export default function ImageCarousel() {
             modules={[EffectCoverflow, Pagination, Autoplay]}
         >
             {slides.map((src, idx) => (
-                <SwiperSlide
-                    key={idx}
-                    className="flex items-center justify-center"
-                >
+                <SwiperSlide key={idx} className="flex items-center justify-center">
                     <img
-                        style={{
-                            minWidth: '200px',
-                            minHeight: '380px',
-                            height: 'auto',
-                        }}
                         src={src}
-                        className="rounded-2xl shadow-2xl object-cover"
+                        className="w-full max-w-4xl h-56 md:h-96 rounded-2xl shadow-2xl object-cover"
+                        alt={`slide-${idx}`}
                     />
                 </SwiperSlide>
             ))}

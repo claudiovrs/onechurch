@@ -8,7 +8,7 @@ export default function Footer() {
             backgroundColor: 'black',
             opacity: 0.8,
         }}>
-            <div className="container mx-auto grid md:grid-cols-3 gap-8">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
                 <div className="flex flex-col items-start">
                     <img src="/logo.png" alt="OneChurch logo" className="w-40 mb-2" />
                     <p>onechurchoficial@gmail.com</p>
@@ -54,7 +54,9 @@ export default function Footer() {
 
                 <div>
                     <h3 className="font-bold text-lg mb-2">Localização</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.085179574056!2d-46.59951132467296!3d-23.457391778871393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef70037420719%3A0xe7c145e2de49bdb5!2sOne%20Church!5e0!3m2!1spt-BR!2sbr!4v1759450392079!5m2!1spt-BR!2sbr" width="450" height="250" loading="lazy"></iframe>
+                    <div className="w-full h-48 md:h-64">
+                        <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.085179574056!2d-46.59951132467296!3d-23.457391778871393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef70037420719%3A0xe7c145e2de49bdb5!2sOne%20Church!5e0!3m2!1spt-BR!2sbr!4v1759450392079!5m2!1spt-BR!2sbr" loading="lazy" />
+                    </div>
                     <p>R. Maria Amália Lopes Azevedo, 3080 - Vila Albertina, São Paulo - SP, 02350-003</p>
                 </div>
             </div>
