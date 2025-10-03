@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Navbar />
-          <main className="min-h-screen mt-[74px] md:mt-[93px]">{children}</main>
+          <main className="min-h-screen mt-[93px]">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

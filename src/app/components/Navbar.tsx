@@ -34,11 +34,11 @@ export default function Navbar() {
             >
                 <Link legacyBehavior href="/">
                     <a className="flex items-center gap-3">
-                        <Image src="/logo.png" alt="OneChurch" width={110} height={110} className="w-24 h-auto md:w-36" />
+                        <Image src="/logo.png" alt="OneChurch" width={140} height={140} />
                     </a>
                 </Link>
                 <div className="flex-1" />
-                <nav className="hidden md:flex gap-4 items-center">
+                <nav className="hidden md:flex gap-4">
                     <Link legacyBehavior href="#pontes"><Button color="inherit">Pontes</Button></Link>
                     <Link legacyBehavior href="#sobre"><Button color="inherit">Sobre</Button></Link>
                     <Link legacyBehavior href="#eventos"><Button color="inherit">Eventos</Button></Link>

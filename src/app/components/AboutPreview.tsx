@@ -5,7 +5,7 @@ export default function AboutPreview() {
     const anoAtual = new Date().getFullYear();
     const anosAtividade = anoAtual - anoFundacaoo;
     return (
-    <div id="sobre" className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch px-4 md:px-16 container mx-auto">
+        <div id="sobre" className="grid md:grid-row-2 gap-8 items-stretch px-2">
             <Card elevation={6} className="p-6 rounded-lg shadow-2xl bg-white h-full">
                 <CardContent className="flex flex-col h-full justify-between gap-4">
                     <Typography variant="h5" component="h2" className="mb-2 font-semibold">
