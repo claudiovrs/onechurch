@@ -3,14 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-lulo: 'Lulo Clean One', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/*
+  Add the Lulo Clean One Bold font files to: public/fonts/
+  - public/fonts/lulo-clean-w01-one-bold.woff2
+  - public/fonts/lulo-clean-w01-one-bold.woff
+*/
+
+@font-face {
+  font-family: 'Lulo Clean One';
+  src: url('/fonts/lulo-clean-w01-one-bold.woff2') format('woff2'),
+       url('/fonts/lulo-clean-w01-one-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
+
+/* keep other theme variables inside :root above */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,4 +34,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hero background image positioning: keep a right-bottom focal point on small
+   screens and center it on medium+ screens. Applied to the Image via className. */
+.hero-bg {
+  object-position: right bottom;
+}
+
+@media (min-width: 768px) {
+  .hero-bg {
+    object-position: center;
+  }
 }
