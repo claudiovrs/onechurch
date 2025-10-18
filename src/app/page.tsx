@@ -17,8 +17,8 @@ export default function Home() {
         <div className="container mx-auto px-4"><AboutPreview /></div>
       </section>
       <section className="py-12 container mx-auto px-4"><EventsCalendar /></section>
-      <section className="py-12 container mx-auto px-4"><MusicPlaylist /></section>
-      <section className="py-12 container mx-auto px-4"><DonationSection /></section>
+      <section className="container mx-auto px-4"><MusicPlaylist /></section>
+      <section className="container mx-auto px-4"><DonationSection /></section>
     </>
   );
 }
