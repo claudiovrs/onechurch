@@ -7,8 +7,8 @@ import 'swiper/css/effect-coverflow'
 
 export default function ImageCarousel() {
     const slides = [
+        '/imagens/tema.png',
         '/imagens/pontes.png',
-        '/imagens/tema.png'
     ];
     return (
         // <Swiper

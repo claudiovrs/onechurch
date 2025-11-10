@@ -7,7 +7,6 @@ const events = [
     { id: 1, title: 'Avalanche', date: '2025-10-05', time: '10:00', weekName: 'Sábado' },
     { id: 2, title: 'Culto da familia', date: '2025-10-06', time: '19:00', weekName: 'Domingo' },
     { id: 3, title: 'Fundamentos', date: '2025-10-06', time: '19:00', weekName: 'Quinta' },
-    { id: 4, title: 'Noite do hambúrguer', date: '2025-10-25', time: '19:00' },
 ];
 
 export default function EventsCalendar() {
@@ -56,9 +55,9 @@ export default function EventsCalendar() {
                                 }
                             })}
 
-                            <div className="mt-2 text-right">
+                            {/* <div className="mt-2 text-right">
                                 <a href="#" className="text-sm text-[#19ba9b] hover:underline">Ver todos os eventos</a>
-                            </div>
+                            </div> */}
                         </div>
                     </CardContent>
                 </Card>
