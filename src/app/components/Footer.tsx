@@ -17,7 +17,7 @@ export default function Footer() {
                     <h3 className="font-bold text-lg mb-2">Redes Sociais</h3>
                     <div className="flex items-center gap-3">
                         <a
-                            href="#"
+                            href="https://www.facebook.com/OneChurchOficial/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Facebook - OneChurch"
@@ -28,7 +28,7 @@ export default function Footer() {
                         </a>
 
                         <a
-                            href="#"
+                            href="https://www.instagram.com/onechurchoficial/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Instagram - OneChurch"
@@ -39,7 +39,7 @@ export default function Footer() {
                         </a>
 
                         <a
-                            href="#"
+                            href="https://www.youtube.com/@OneChurchOficial"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="YouTube - OneChurch"
